@@ -7,8 +7,8 @@ public class Veiculo {
 	
 	public Veiculo(String individuo, String placa, int gasolina) {
 		this.setIndividuo(individuo);
-		this.setPl(placa);
-		this.setGas(gasolina);
+		this.setPlaca(placa);
+		this.setGasolina(gasolina);
 	}
 
 	public String getIndividuo() {
@@ -20,27 +20,27 @@ public class Veiculo {
 	}
 
 	public String getPlaca() {
-		return pl;
+		return placa;
 	}
 
 	private void setPlaca(String pl) {
-		this.pl = pl;
+		this.placa = pl;
 	}
 
 	public double getGasolina() {
-		return gas;
+		return gasolina;
 	}
 
 	private void setGasolina(double gas) {
-		this.gas = gas;
+		this.gasolina = gas;
 	}
 	
 	public void adicionar(double v) {
-		 this.gas = gas + v;
+		 this.gasolina = gasolina + v;
 	}
 		
 	public void gasta(double v) {
-		 this.gas = gas - v;
+		 this.gasolina = gasolina - v;
 	}
 	
 }
