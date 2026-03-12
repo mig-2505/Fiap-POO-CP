@@ -10,11 +10,11 @@ public class Principal {
 		v1.gasta(100);
 		v1.adicionar(200);
 		v1.gasta(180);
-		System.out.println("Dono: " + v1.getIndividuo() + " | Placa: " + v1.getPl() + " | Gasolina: " + v1.getGas());
+		System.out.println("Dono: " + v1.getIndividuo() + " | Placa: " + v1.getPlaca() + " | Gasolina: " + v1.getGasolina());
 		
 		Veiculo v2 = new Veiculo("João", "DEG-5678", 100);
 		v2.adicionar(50);
 		v2.gasta(130);
-		System.out.println("Dono: " + v2.getIndividuo() + " | Placa: " + v2.getPl() + " | Gasolina: " + v2.getGas());
+		System.out.println("Dono: " + v2.getIndividuo() + " | Placa: " + v2.getPlaca() + " | Gasolina: " + v2.getGasolina());
 	}	
 }
